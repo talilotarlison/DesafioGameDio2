@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Rankeadas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1>Calculadora de Rankedas!!</h1>
+      <form id="some-form">
+      <div class="dados_nome box">
+        <p>Qual seu Nome?</p>
+        <input type="text" id="nome" minlength="1" maxlength="50" placeholder="Insira o nome do Heroi!"></input>
+        <button onclick="showSexo()">Avançar</button>
+      </div>
+   
+      <div class="dados_sexo box">
+          <p>Qual seu Sexo?</p>
+          <div>
+              <input type="radio" id="sexo_M" name="sexo" value="Masculino" />
+              <label for="sexo_M">Masculino</label>
+          </div>
+          <div>
+             <input type="radio" id="sexo_F" name="sexo" value="Feminino"/>
+             <label for="sexo_F">Feminino</label>
+          </div>
+          <button onclick="showXP()">Avançar</button>
+      </div>
+      
+      <div class="dados_xp box">
+        <p>Qual Seu Numero de Vitorias e Derrotas?</p>
+        <input type="number" id="xp_vitorias" placeholder="Numeros de Vitorias." required></input>
+        <input type="number" id="xp_derotas" placeholder="Numeros de Derrotas" required></input>
+        <button onclick="showResultado()">Avançar</button>
+      </div>
+      </form>
+
+      <div class="dados_mostrar box">
+          <p>Resultado:</p>
+          <div id="mostra_resultado"></div>
+      </div>
+     
+      <script src="script.js"></script>
+  </body>
+</html>
