@@ -4,8 +4,7 @@
 
 ## Uso de POO - Objeto class e metodo.
 
-### Metodo com estrutura de condição para verificar a patente do Heroi.
-
+### Metodo com estrutura de condição para verificar a Rackeamento do Heroi.
 
 ## -> Tecnologias usada:
 
