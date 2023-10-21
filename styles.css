@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+body{
+  width: 80vw;
+  /*height: 80vh;*/
+  padding: 25px;
+  background-color: white; 
+  font-family: 'Gabarito', sans-serif;
+ 
+background-image: url("https://e0.pxfuel.com/wallpapers/392/812/desktop-wallpaper-steam-community-guide-with-teams-cs-go.jpg");
+background-size: cover;
+  
+}
+
+form{
+  margin: 0 auto;
+}
+
+input{
+  height: 30px;
+  border-radius:5px;
+  border: none;
+  padding: 0 5px;
+  margin:  5px;
+}
+
+button {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #e65f44;
+	display:inline-block;
+	cursor:pointer;
+	color:#c92200;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+
+h1{
+  color:#f0c911;
+  text-align: center;
+  border-radius: 15px;
+  border: solid 1px #f0c911;
+ text-shadow:   #DBDBDB89 1px 1px;
+}
+
+.box{
+  margin: 10px auto;
+  padding: 20px;
+  width: 300px;
+  height: 220px;
+  border-radius: 8px;
+  background-color: #DBDBDB;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: solid 1px #f0c91189;
+  position: relative !important;
+  top: 50px;
+  left: 10px;
+}
+
+.dados_mostrar, .dados_sexo,.dados_xp{
+  
+  height: 220px;
+  visibility: hidden;
+}
+
+.show{
+  height: 220px;
+  display: block;
+}
+
+.remove{
+  display: none;
+}
