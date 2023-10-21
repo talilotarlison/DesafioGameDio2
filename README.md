@@ -1,6 +1,6 @@
 # DesafioGameDio2
 
-## ->Desafio  1 Game Dio - IFOOD
+## ->Desafio  2 Game Dio - IFOOD
 
 ## Uso de POO - Objeto class e metodo.
 
